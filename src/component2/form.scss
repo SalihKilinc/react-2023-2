@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, rgba(123,157,184)0% ,
+    rgba(100,115,255,1)100%
+    );
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    min-height: 600px;
+    width: 520px;
+    background-color:white;
+    text-align: center;
+    margin: 90px auto;
+    border-radius: 15px;
+    padding-bottom: 32px;
+   
+}
+.header{
+    margin: 32px 0;
+    font-size: 24px;
+}

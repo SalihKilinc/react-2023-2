@@ -11,7 +11,7 @@ const api ="e986d0bb542ff0d95aa38eb4582ad882";
 const baseUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=tr&appid=${api}&units=metric`
 
     axios(baseUrl).then(res => (res.data));  // axios fetch gorevi yapar bize json olarak cevirir dosyalari
-console.log(baseUrl)
+console.log(baseUrl) // axios(baseUrl).then(data=> console.log(data))    consolda data verir
 
  }
  
